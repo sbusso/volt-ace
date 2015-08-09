@@ -1,6 +1,4 @@
-require "volt/ace/version"
-
-class Volt
+module Volt
   class Ace
     # Your code goes here...
   end
