@@ -1,5 +1,5 @@
 module Volt
-  class Ace
+  module Ace
     # Your code goes here...
   end
 end
