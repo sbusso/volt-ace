@@ -1,0 +1,16 @@
+.ace_editor {
+  font: 14px/18px "Anonymous Pro", Monaco, "Lucida Console", "Courier New", Courier, monospace;
+}
+
+.ace-editor {
+  min-height: 200px;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+.ace-editor {
+  .ace_content {
+      padding: 5px 2px;
+  }
+
+}
