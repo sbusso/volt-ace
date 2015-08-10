@@ -16,15 +16,16 @@ module Ace
         this.editor.getSession().setUseSoftTabs(false);
         this.editor.getSession().setTabSize(0);
         this.editor.renderer.setPadding(5) ;
-        this.editor.$blockScrolling = Infinity
+        this.editor.setAutoScrollEditorIntoView(true);
+        this.editor.$blockScrolling = Infinity;
         this.editor.setOptions({
             displayIndentGuides: false,
             showGutter: false,
             // showTokenInfo: false,
-            fontFamily: '"Anonymous Pro", Monaco, "Lucida Console", "Courier New", Courier, monospace',
-            fontSize: 14,
             highlightActiveLine: false,
-            showPrintMargin: false
+            showPrintMargin: false,
+            maxLines: 30,
+            minLines: 2
           })
 
         var mode = 'mustache';
